@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1, h2, h3 {
+    cursor: pointer;
+}
+section {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+section.collapsed > div {
+    display: none;
+}
+#toc {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+#toc ul {
+    list-style: none;
+    padding-left: 0;
+}
+#toc ul li {
+    margin: 5px 0;
+}
+#toc a {
+    text-decoration: none;
+    color: #000;
+}
+#toc a:hover {
+    text-decoration: underline;
+}
